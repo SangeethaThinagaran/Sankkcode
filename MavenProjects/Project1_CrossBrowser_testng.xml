@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="ChromeBrowser">
+	  <parameter name="project1_browser" value="chrome"></parameter>
+    <classes>
+		<class name="test.Project1.Amazon.Maven.Amaz_TC1_Registration_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC2_LoginSuccess_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC3_LoginFail_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC4_Profile_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC5_Search_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC6_search_filter_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC7_Product_Page_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC8_Sort_Prod_Page_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC9_AddToCart_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC10_Update_Remove_Items_Cart_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC11_CheckOut_Process_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC12_ProdCount_CartCount_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC13_Coupon_Code_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC14_LastOrder_5Star_Rating_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC15_WithoutLogin_Cart_P1"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="EdgeBrowser">
+	  <parameter name="project1_browser" value="chrome"></parameter>
+    <classes>
+		<class name="test.Project1.Amazon.Maven.Amaz_TC1_Registration_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC2_LoginSuccess_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC3_LoginFail_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC4_Profile_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC5_Search_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC6_search_filter_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC7_Product_Page_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC8_Sort_Prod_Page_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC9_AddToCart_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC10_Update_Remove_Items_Cart_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC11_CheckOut_Process_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC12_ProdCount_CartCount_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC13_Coupon_Code_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC14_LastOrder_5Star_Rating_P1"/>
+        <class name="test.Project1.Amazon.Maven.Amaz_TC15_WithoutLogin_Cart_P1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
